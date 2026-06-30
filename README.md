@@ -1,4 +1,4 @@
-# Guía de comandos básicos de Linux y Arch Linux
+# Guía de comandos básicos de Linux
 
 ## 1. Información del sistema
 
