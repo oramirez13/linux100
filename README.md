@@ -11,7 +11,7 @@
 | `lscpu`       | Muestra información del procesador.                                      |
 | `free -h`     | Muestra el uso de memoria RAM y swap.                                    |
 | `uptime`      | Muestra el tiempo que lleva encendido el sistema.                        |
-| `date`        | Muestra la fecha y hora actual.                                          |
+| `date`        | Muestra la fecha y hora actuales.                                          |
 | `whoami`      | Muestra el usuario actual.                                               |
 | `id`          | Muestra el UID, GID y grupos del usuario.                                |
 
