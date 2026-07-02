@@ -231,7 +231,7 @@
 | `strace`  | Muestra las llamadas al sistema de un proceso. |
 | `tcpdump` | Captura tráfico de red.                        |
 | `vmstat`  | Muestra estadísticas de memoria y CPU.         |
-| `iostat`  | Muestra estadísticas de discos.                |
+| `iostat`  | Muestra estadísticas de disco.                |
 
 ---
 
