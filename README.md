@@ -243,3 +243,5 @@
 | `comando --help`  | Muestra la ayuda rápida del comando.               |
 | `info comando`    | Abre la documentación GNU si está disponible.      |
 | `apropos palabra` | Busca comandos relacionados con una palabra clave. |
+
+orami infosec
