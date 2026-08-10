@@ -1,4 +1,4 @@
-# Basic Linux and Arch Linux commands guide
+# Basic Linux commands guide - Arch Linux edition
 
 ## 1. System information
 
