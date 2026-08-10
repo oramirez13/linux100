@@ -1,247 +1,245 @@
-# Guía de comandos básicos de Linux
+# Basic Linux and Arch Linux commands guide
 
-## 1. Información del sistema
+## 1. System information
 
-| Comando       | Explicación                                                              |
+| Command       | Explanation                                                              |
 | ------------- | ------------------------------------------------------------------------ |
-| `uname -a`    | Muestra información completa del kernel y del sistema.                   |
-| `hostname`    | Muestra el nombre del equipo.                                            |
-| `hostnamectl` | Muestra información detallada del sistema y permite cambiar el hostname. |
-| `arch`        | Muestra la arquitectura del sistema.                                     |
-| `lscpu`       | Muestra información del procesador.                                      |
-| `free -h`     | Muestra el uso de memoria RAM y swap.                                    |
-| `uptime`      | Muestra el tiempo que lleva encendido el sistema.                        |
-| `date`        | Muestra la fecha y hora actuales.                                          |
-| `whoami`      | Muestra el usuario actual.                                               |
-| `id`          | Muestra el UID, GID y grupos del usuario.                                |
+| `uname -a`    | Shows complete kernel and system information.                            |
+| `hostname`    | Shows the computer name.                                                 |
+| `hostnamectl` | Shows detailed system information and allows changing the hostname.      |
+| `arch`        | Shows the system architecture.                                           |
+| `lscpu`       | Shows processor information.                                             |
+| `free -h`     | Shows RAM and swap usage.                                                |
+| `uptime`      | Shows how long the system has been running.                              |
+| `date`        | Shows the current date and time.                                         |
+| `whoami`      | Shows the current user.                                                  |
+| `id`          | Shows the UID, GID, and groups of the user.                              |
 
 ---
 
-# 2. Navegación por el sistema de archivos
+# 2. Navigating the file system
 
-| Comando  | Explicación                                             |
+| Command  | Explanation                                             |
 | -------- | ------------------------------------------------------- |
-| `pwd`    | Muestra el directorio actual.                           |
-| `ls`     | Lista el contenido del directorio.                      |
-| `ls -la` | Lista todos los archivos con detalles.                  |
-| `cd`     | Cambia de directorio.                                   |
-| `tree`   | Muestra la estructura de directorios en forma de árbol. |
-| `mkdir`  | Crea un directorio.                                     |
-| `rmdir`  | Elimina un directorio vacío.                            |
-| `touch`  | Crea un archivo vacío.                                  |
-| `cp`     | Copia archivos o directorios.                           |
-| `mv`     | Mueve o renombra archivos.                              |
-| `rm`     | Elimina archivos o directorios.                         |
-| `find`   | Busca archivos y directorios.                           |
-| `locate` | Busca archivos usando una base de datos indexada.       |
+| `pwd`    | Shows the current directory.                            |
+| `ls`     | Lists the contents of the directory.                    |
+| `ls -la` | Lists all files with details.                           |
+| `cd`     | Changes the directory.                                  |
+| `tree`   | Shows the directory structure as a tree.                |
+| `mkdir`  | Creates a directory.                                    |
+| `rmdir`  | Removes an empty directory.                             |
+| `touch`  | Creates an empty file.                                  |
+| `cp`     | Copies files or directories.                            |
+| `mv`     | Moves or renames files.                                 |
+| `rm`     | Removes files or directories.                           |
+| `find`   | Finds files and directories.                            |
+| `locate` | Finds files using an indexed database.                  |
 
 ---
 
-# 3. Visualización de archivos
+# 3. Viewing files
 
-| Comando   | Explicación                                  |
+| Command   | Explanation                                  |
 | --------- | -------------------------------------------- |
-| `cat`     | Muestra el contenido completo de un archivo. |
-| `less`    | Visualiza archivos página por página.        |
-| `head`    | Muestra las primeras líneas de un archivo.   |
-| `tail`    | Muestra las últimas líneas de un archivo.    |
-| `tail -f` | Sigue un archivo en tiempo real.             |
-| `file`    | Identifica el tipo de archivo.               |
-| `stat`    | Muestra información detallada de un archivo. |
+| `cat`     | Shows the complete content of a file.        |
+| `less`    | Views files page by page.                    |
+| `head`    | Shows the first lines of a file.             |
+| `tail`    | Shows the last lines of a file.              |
+| `tail -f` | Follows a file in real time.                 |
+| `file`    | Identifies the type of a file.               |
+| `stat`    | Shows detailed information about a file.     |
 
 ---
 
-# 4. Búsqueda y procesamiento de texto
+# 4. Searching and processing text
 
-| Comando   | Explicación                             |
+| Command   | Explanation                             |
 | --------- | --------------------------------------- |
-| `grep`    | Busca texto mediante patrones.          |
-| `grep -r` | Busca texto de forma recursiva.         |
-| `awk`     | Procesa texto por columnas.             |
-| `sed`     | Edita y transforma texto.               |
-| `cut`     | Extrae columnas de texto.               |
-| `sort`    | Ordena líneas.                          |
-| `uniq`    | Elimina líneas duplicadas consecutivas. |
-| `tr`      | Sustituye caracteres.                   |
-| `wc`      | Cuenta líneas, palabras y caracteres.   |
+| `grep`    | Searches text using patterns.           |
+| `grep -r` | Searches text recursively.              |
+| `awk`     | Processes text by columns.              |
+| `sed`     | Edits and transforms text.              |
+| `cut`     | Extracts columns of text.               |
+| `sort`    | Sorts lines.                            |
+| `uniq`    | Removes consecutive duplicate lines.    |
+| `tr`      | Replaces characters.                    |
+| `wc`      | Counts lines, words, and characters.    |
 
 ---
 
-# 5. Permisos
+# 5. Permissions
 
-| Comando | Explicación                                    |
+| Command | Explanation                                    |
 | ------- | ---------------------------------------------- |
-| `chmod` | Cambia los permisos de archivos y directorios. |
-| `chown` | Cambia el propietario.                         |
-| `chgrp` | Cambia el grupo propietario.                   |
-| `umask` | Define los permisos por defecto.               |
+| `chmod` | Changes permissions of files and directories.  |
+| `chown` | Changes the owner.                             |
+| `chgrp` | Changes the owner group.                       |
+| `umask` | Defines the default permissions.               |
 
 ---
 
-# 6. Usuarios
+# 6. Users
 
-| Comando  | Explicación                                       |
+| Command  | Explanation                                       |
 | -------- | ------------------------------------------------- |
-| `who`    | Muestra usuarios conectados.                      |
-| `w`      | Muestra usuarios y procesos activos.              |
-| `groups` | Muestra los grupos del usuario.                   |
-| `passwd` | Cambia la contraseña de un usuario.               |
-| `sudo`   | Ejecuta comandos con privilegios administrativos. |
-| `visudo` | Edita de forma segura el archivo sudoers.         |
+| `who`    | Shows connected users.                            |
+| `w`      | Shows users and active processes.                 |
+| `groups` | Shows the groups of the user.                     |
+| `passwd` | Changes a user password.                          |
+| `sudo`   | Runs commands with administrative privileges.     |
+| `visudo` | Safely edits the sudoers file.                    |
 
 ---
 
-# 7. Procesos
+# 7. Processes
 
-| Comando   | Explicación                          |
+| Command   | Explanation                          |
 | --------- | ------------------------------------ |
-| `ps`      | Muestra procesos en ejecución.       |
-| `ps aux`  | Lista todos los procesos.            |
-| `top`     | Monitor de procesos en tiempo real.  |
-| `htop`    | Monitor de procesos interactivo.     |
-| `kill`    | Finaliza un proceso mediante su PID. |
-| `killall` | Finaliza procesos por nombre.        |
-| `pgrep`   | Busca procesos por nombre.           |
-| `pkill`   | Finaliza procesos por nombre.        |
+| `ps`      | Shows running processes.             |
+| `ps aux`  | Lists all processes.                 |
+| `top`     | Real-time process monitor.           |
+| `htop`    | Interactive process monitor.         |
+| `kill`    | Terminates a process by its PID.     |
+| `killall` | Terminates processes by name.        |
+| `pgrep`   | Searches processes by name.          |
+| `pkill`   | Terminates processes by name.        |
 
 ---
 
-# 8. Servicios (systemd)
+# 8. Services (systemd)
 
-| Comando                      | Explicación                       |
+| Command                      | Explanation                       |
 | ---------------------------- | --------------------------------- |
-| `systemctl status servicio`  | Muestra el estado de un servicio. |
-| `systemctl start servicio`   | Inicia un servicio.               |
-| `systemctl stop servicio`    | Detiene un servicio.              |
-| `systemctl restart servicio` | Reinicia un servicio.             |
-| `systemctl enable servicio`  | Activa el inicio automático.      |
-| `systemctl disable servicio` | Desactiva el inicio automático.   |
+| `systemctl status service`   | Shows the status of a service.    |
+| `systemctl start service`    | Starts a service.                 |
+| `systemctl stop service`     | Stops a service.                  |
+| `systemctl restart service`  | Restarts a service.               |
+| `systemctl enable service`   | Enables automatic startup.        |
+| `systemctl disable service`  | Disables automatic startup.       |
 
 ---
 
 # 9. Logs
 
-| Comando          | Explicación                                |
+| Command          | Explanation                                |
 | ---------------- | ------------------------------------------ |
-| `journalctl`     | Muestra los registros del sistema.         |
-| `journalctl -b`  | Muestra los registros del arranque actual. |
-| `journalctl -xe` | Muestra errores recientes.                 |
-| `journalctl -f`  | Sigue el log en tiempo real.               |
-| `dmesg`          | Muestra mensajes del kernel.               |
+| `journalctl`     | Shows system logs.                         |
+| `journalctl -b`  | Shows logs of the current boot.            |
+| `journalctl -xe` | Shows recent errors.                       |
+| `journalctl -f`  | Follows the log in real time.              |
+| `dmesg`          | Shows kernel messages.                     |
 
 ---
 
-# 10. Redes
+# 10. Networking
 
-| Comando     | Explicación                                |
+| Command     | Explanation                                |
 | ----------- | ------------------------------------------ |
-| `ip addr`   | Muestra las interfaces de red.             |
-| `ip route`  | Muestra la tabla de rutas.                 |
-| `ping`      | Comprueba conectividad con un host.        |
-| `ss -tulnp` | Muestra puertos abiertos y conexiones.     |
-| `curl`      | Realiza peticiones HTTP.                   |
-| `wget`      | Descarga archivos desde Internet.          |
-| `dig`       | Consulta registros DNS.                    |
-| `host`      | Resuelve nombres DNS.                      |
-| `nmcli`     | Gestiona NetworkManager desde la terminal. |
+| `ip addr`   | Shows the network interfaces.              |
+| `ip route`  | Shows the routing table.                   |
+| `ping`      | Checks connectivity with a host.           |
+| `ss -tulnp` | Shows open ports and connections.          |
+| `curl`      | Makes HTTP requests.                       |
+| `wget`      | Downloads files from the Internet.         |
+| `dig`       | Queries DNS records.                       |
+| `host`      | Resolves DNS names.                        |
+| `nmcli`     | Manages NetworkManager from the terminal.  |
 
 ---
 
 # 11. SSH
 
-| Comando            | Explicación                         |
+| Command            | Explanation                         |
 | ------------------ | ----------------------------------- |
-| `ssh usuario@host` | Conecta a un servidor remoto.       |
-| `scp`              | Copia archivos mediante SSH.        |
-| `sftp`             | Transfiere archivos mediante SSH.   |
-| `ssh-keygen`       | Genera claves SSH.                  |
-| `ssh-copy-id`      | Copia la clave pública al servidor. |
+| `ssh user@host`    | Connects to a remote server.        |
+| `scp`              | Copies files over SSH.              |
+| `sftp`             | Transfers files over SSH.           |
+| `ssh-keygen`       | Generates SSH keys.                 |
+| `ssh-copy-id`      | Copies the public key to the server.|
 
 ---
 
-# 12. Discos
+# 12. Disks
 
-| Comando          | Explicación                                 |
+| Command          | Explanation                                 |
 | ---------------- | ------------------------------------------- |
-| `lsblk`          | Lista discos y particiones.                 |
-| `df -h`          | Muestra el espacio en disco.                |
-| `du -sh carpeta` | Muestra el tamaño de una carpeta.           |
-| `blkid`          | Muestra UUID y tipo de sistema de archivos. |
-| `mount`          | Monta un sistema de archivos.               |
-| `umount`         | Desmonta un sistema de archivos.            |
+| `lsblk`          | Lists disks and partitions.                 |
+| `df -h`          | Shows the disk space available.             |
+| `du -sh folder`  | Shows the size of a folder.                 |
+| `blkid`          | Shows UUID and file system type.            |
+| `mount`          | Mounts a file system.                       |
+| `umount`         | Unmounts a file system.                     |
 
 ---
 
-# 13. Compresión
+# 13. Compression
 
-| Comando  | Explicación                |
+| Command  | Explanation                |
 | -------- | -------------------------- |
-| `tar`    | Empaqueta archivos.        |
-| `gzip`   | Comprime archivos.         |
-| `gunzip` | Descomprime archivos GZIP. |
-| `zip`    | Comprime en formato ZIP.   |
-| `unzip`  | Extrae archivos ZIP.       |
+| `tar`    | Packages files.            |
+| `gzip`   | Compresses files.          |
+| `gunzip` | Decompresses GZIP files.   |
+| `zip`    | Compresses in ZIP format.  |
+| `unzip`  | Extracts ZIP files.        |
 
 ---
 
-# 14. Administración de paquetes (Arch Linux)
+# 14. Package management (Arch Linux)
 
 ## Pacman
 
-| Comando               | Explicación                                     |
+| Command               | Explanation                                     |
 | --------------------- | ----------------------------------------------- |
-| `pacman -Syu`         | Actualiza completamente el sistema.             |
-| `pacman -S paquete`   | Instala un paquete.                             |
-| `pacman -R paquete`   | Elimina un paquete.                             |
-| `pacman -Rns paquete` | Elimina un paquete y dependencias innecesarias. |
-| `pacman -Qs nombre`   | Busca paquetes instalados.                      |
-| `pacman -Qi paquete`  | Muestra información de un paquete.              |
-| `pacman -Q`           | Lista todos los paquetes instalados.            |
-| `pacman -Sc`          | Limpia la caché de paquetes.                    |
+| `pacman -Syu`         | Fully updates the system.                       |
+| `pacman -S package`   | Installs a package.                             |
+| `pacman -R package`   | Removes a package.                              |
+| `pacman -Rns package` | Removes a package and unnecessary dependencies. |
+| `pacman -Qs name`     | Searches installed packages.                    |
+| `pacman -Qi package`  | Shows information about a package.              |
+| `pacman -Q`           | Lists all installed packages.                   |
+| `pacman -Sc`          | Cleans the package cache.                       |
 
 ## Yay
 
-| Comando            | Explicación                                                 |
+| Command            | Explanation                                                 |
 | ------------------ | ----------------------------------------------------------- |
-| `yay -Syu`         | Actualiza paquetes oficiales y del AUR.                     |
-| `yay -S paquete`   | Instala un paquete del AUR o de los repositorios oficiales. |
-| `yay -Rns paquete` | Elimina un paquete y sus dependencias.                      |
-| `yay -Qs nombre`   | Busca paquetes.                                             |
+| `yay -Syu`         | Updates official and AUR packages.                          |
+| `yay -S package`   | Installs a package from the AUR or official repositories.   |
+| `yay -Rns package` | Removes a package and its dependencies.                     |
+| `yay -Qs name`     | Searches packages.                                          |
 
 ---
 
-# 15. Auditoría y seguridad
+# 15. Audit and security
 
-| Comando      | Explicación                            |
+| Command      | Explanation                            |
 | ------------ | -------------------------------------- |
-| `auditctl`   | Administra las reglas de auditoría.    |
-| `ausearch`   | Busca eventos registrados por auditd.  |
-| `aureport`   | Genera informes de auditoría.          |
-| `journalctl` | Revisa eventos del sistema.            |
-| `sha256sum`  | Calcula el hash SHA-256 de un archivo. |
-| `gpg`        | Firma y cifra archivos.                |
+| `auditctl`   | Manages audit rules.                   |
+| `ausearch`   | Searches events logged by auditd.      |
+| `aureport`   | Generates audit reports.               |
+| `journalctl` | Reviews system events.                 |
+| `sha256sum`  | Calculates the SHA-256 hash of a file. |
+| `gpg`        | Signs and encrypts files.              |
 
 ---
 
-# 16. Diagnóstico
+# 16. Diagnostics
 
-| Comando   | Explicación                                    |
+| Command   | Explanation                                    |
 | --------- | ---------------------------------------------- |
-| `lsof`    | Lista archivos abiertos por procesos.          |
-| `strace`  | Muestra las llamadas al sistema de un proceso. |
-| `tcpdump` | Captura tráfico de red.                        |
-| `vmstat`  | Muestra estadísticas de memoria y CPU.         |
-| `iostat`  | Muestra estadísticas de disco.                |
+| `lsof`    | Lists files opened by processes.               |
+| `strace`  | Shows the system calls of a process.           |
+| `tcpdump` | Captures network traffic.                      |
+| `vmstat`  | Shows memory and CPU statistics.               |
+| `iostat`  | Shows disk statistics.                         |
 
 ---
 
-# 17. Ayuda
+# 17. Help
 
-| Comando           | Explicación                                        |
+| Command           | Explanation                                        |
 | ----------------- | -------------------------------------------------- |
-| `man comando`     | Abre el manual del comando.                        |
-| `comando --help`  | Muestra la ayuda rápida del comando.               |
-| `info comando`    | Abre la documentación GNU si está disponible.      |
-| `apropos palabra` | Busca comandos relacionados con una palabra clave. |
-
-orami infosec
+| `man command`     | Opens the manual of a command.                     |
+| `command --help`  | Shows the quick help of a command.                 |
+| `info command`    | Opens GNU documentation if available.              |
+| `apropos word`    | Searches commands related to a keyword.            |
